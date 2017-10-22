@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="YTE">
+      <UniqueIdentifier>{65dcbc2e-7668-42af-a51c-e6e16f7ced4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="YTE\Meta">
+      <UniqueIdentifier>{c45dcb05-ea72-4f5c-b1a1-e899bfb13b81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="YTE\StandardLibrary">
+      <UniqueIdentifier>{dc10f891-1fa8-47d7-b45e-aaf9aa457c35}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="YTE\StandardLibrary\Any.hpp">
+      <Filter>YTE\StandardLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="YTE\StandardLibrary\ConstexprString.hpp">
+      <Filter>YTE\StandardLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="YTE\StandardLibrary\Iterator.hpp">
+      <Filter>YTE\StandardLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="YTE\StandardLibrary\OrderedMap.hpp">
+      <Filter>YTE\StandardLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="YTE\StandardLibrary\OrderedMultiMap.hpp">
+      <Filter>YTE\StandardLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="YTE\StandardLibrary\Range.hpp">
+      <Filter>YTE\StandardLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="YTE\StandardLibrary\TypeTraits.hpp">
+      <Filter>YTE\StandardLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="YTE\StandardLibrary\Utilities.hpp">
+      <Filter>YTE\StandardLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="YTE\Meta\Attribute.hpp">
+      <Filter>YTE\Meta</Filter>
+    </ClInclude>
+    <ClInclude Include="YTE\Meta\Field.hpp">
+      <Filter>YTE\Meta</Filter>
+    </ClInclude>
+    <ClInclude Include="YTE\Meta\ForwardDeclarations.hpp">
+      <Filter>YTE\Meta</Filter>
+    </ClInclude>
+    <ClInclude Include="YTE\Meta\Function.hpp">
+      <Filter>YTE\Meta</Filter>
+    </ClInclude>
+    <ClInclude Include="YTE\Meta\Property.hpp">
+      <Filter>YTE\Meta</Filter>
+    </ClInclude>
+    <ClInclude Include="YTE\Meta\Reflection.hpp">
+      <Filter>YTE\Meta</Filter>
+    </ClInclude>
+    <ClInclude Include="YTE\Meta\Type.hpp">
+      <Filter>YTE\Meta</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="YTE\Meta\Attribute.cpp">
+      <Filter>YTE\Meta</Filter>
+    </ClCompile>
+    <ClCompile Include="YTE\Meta\Type.cpp">
+      <Filter>YTE\Meta</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp" />
+  </ItemGroup>
+</Project>

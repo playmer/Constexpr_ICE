@@ -1,0 +1,10 @@
+
+*.tlog
+
+*.log
+
+*.idb
+
+*.pdb
+
+ICE_2/\.vs/IntellisenseRepro/v15/\.suo
