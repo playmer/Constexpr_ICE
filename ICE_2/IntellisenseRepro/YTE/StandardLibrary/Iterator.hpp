@@ -6,14 +6,14 @@ namespace YTE
   class ConstRandomAccessIterator;
 
   template <typename TemplateType>
-  class RandomAccessIterator : public std::iterator<std::random_access_iterator_tag, TemplateType>
+  class RandomAccessIterator
   {
   public:
     using pointer = TemplateType*;
     using reference = TemplateType&;
     using value_type = TemplateType;
     using size_type = size_t;
-    using difference_type = typename std::iterator<std::random_access_iterator_tag, TemplateType>::difference_type;
+	using difference_type = size_t;
 
     inline RandomAccessIterator(pointer aPointer = nullptr)
       : mCurrent(aPointer)
@@ -141,7 +141,7 @@ namespace YTE
     using value_type = const TemplateType;
     using size_type = size_t;
 
-    using difference_type = typename std::iterator<std::random_access_iterator_tag, TemplateType>::difference_type;
+    using difference_type = size_t;
 
     friend class RandomAccessIterator<TemplateType>;
 

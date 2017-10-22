@@ -8,3 +8,9 @@
 *.pdb
 
 ICE_2/\.vs/IntellisenseRepro/v15/\.suo
+
+*.db
+
+*.opendb
+
+.vs/
