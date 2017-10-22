@@ -14,3 +14,8 @@ ICE_2/\.vs/IntellisenseRepro/v15/\.suo
 *.opendb
 
 .vs/
+*.exe
+
+*.zip
+
+*.ilk
